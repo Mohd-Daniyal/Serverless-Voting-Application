@@ -15,7 +15,8 @@ Welcome to the 2024 Favorite Programming Language Voting App! This application a
 - **Styling:** Tailwind CSS
 - **Deployment:** AWS API Gateway for backend, Netlify for frontend
 
-![Untitled(1)](https://github.com/Mohd-Daniyal/Serverless-Voting-Application/assets/96229438/cccdf410-3960-4a1a-969a-d67fb03fd288)
+![Untitled(1)](https://github.com/Mohd-Daniyal/Serverless-Voting-Application/assets/96229438/df51bbd4-3869-48d0-9995-0852440d0112)
+
 
 ## Getting Started
 
