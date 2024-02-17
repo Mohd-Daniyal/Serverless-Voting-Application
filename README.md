@@ -1,11 +1,10 @@
 # 2024 Favorite Programming Language Voting App
 
-Welcome to the 2024 Favorite Programming Language Voting App! This application allows users to vote for their favorite programming languages and view the rankings.
+Welcome to the 2024 Favorite Programming Language Voting App! This application allows users to vote for their favorite programming languages.
 
 ## Features
 
 - **Vote for Your Favorite Language:** Users can vote for their preferred programming languages.
-- **View Rankings:** View the language rankings based on the number of votes.
 - **Interactive Design:** The app has an interactive and visually appealing design.
 
 ## Technologies Used
@@ -47,3 +46,8 @@ Welcome to the 2024 Favorite Programming Language Voting App! This application a
 
 - `/languages`: Fetches the list of programming languages.
 - `/languages/{language}/vote`: Handles voting for a specific language.
+
+
+
+
+Feel free to make any further adjustments or let me know if there's anything else you'd like to add!
