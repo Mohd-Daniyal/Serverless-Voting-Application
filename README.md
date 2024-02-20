@@ -2,6 +2,8 @@
 
 Welcome to the 2024 Favorite Programming Language Voting App! This application allows users to vote for their favorite programming languages.
 
+**View and vote on the live app** [here](https://serverless-voting.netlify.app/)
+
 ## Features
 
 - **Vote for Your Favorite Language:** Users can vote for their preferred programming languages.
@@ -45,9 +47,21 @@ Welcome to the 2024 Favorite Programming Language Voting App! This application a
 ## API Endpoints
 
 - `/languages`: Fetches the list of programming languages.
+- `/languages/{language}`: Fetches details of a specific language.
 - `/languages/{language}/vote`: Handles voting for a specific language.
 
+### Lambda Function Mapping
 
+- **Function 1: GetAllVotes**
+  - **Endpoint:** `/languages`
+  - **Description:** Retrieves the list of programming languages with their details from DynamoDB.
 
+- **Function 2: GetLanguageInfo**
+  - **Endpoint:** `/languages{language}`
+  - **Description:** Retrieves the information of a particular programming language from DynamoDB.
+
+- **Function 3: VoteCountUpdate**
+  - **Endpoint:** `/languages/{language}/vote`
+  - **Description:** Increments the vote count for the specified language in DynamoDB.
 
 Feel free to make any further adjustments or let me know if there's anything else you'd like to add!
